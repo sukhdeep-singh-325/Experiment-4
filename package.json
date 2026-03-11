@@ -1,0 +1,23 @@
+{
+  "name": "experiment-4-banking-transactions",
+  "version": "1.0.0",
+  "description": "Banking transaction system with ACID-compliant rollback using MongoDB transactions",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["mongodb", "transactions", "acid", "mongoose", "banking"],
+  "author": "sukhdeep-singh-325",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
